@@ -78,8 +78,8 @@ Para ejecutar el proyecto, sigue estos pasos:
 
 1. **Clonar el repositorio**:
    ```bash
-   git clone https://github.com/usuario/proyecto-backend.git
-   cd proyecto-backend
+   git clone https://github.com/EbarriosCode/DotnetBackendChallenge.git
+   
 2.  **Restaurar las dependencias**:   
    Compila la solución
     
