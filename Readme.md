@@ -40,7 +40,8 @@ El proyecto está organizado en varias capas para seguir los principios de la ar
 - **Presentation**: La capa de presentación que expone los endpoints HTTP.
   - **WebAPI**: Contiene los controladores que manejan las solicitudes HTTP y delegan las operaciones a la capa de aplicación.
   - **Extensions**: Métodos de extension utilizadas para manejar errores y convertirlos a respuestas HTTP.
-  - **Tests**: El directorio Tests contiene un proyecto de pruebas para cada una de las capas descritas anteriormente, cada capa tiene multiples pruebas unitarias y la capa de presentacion contiene pruebas unitarias y de integración.
+  
+- **Tests**: El directorio Tests contiene un proyecto de pruebas para cada una de las capas descritas anteriormente, cada capa tiene multiples pruebas unitarias y la capa de presentacion contiene pruebas unitarias y de integración.
 
 ## Patrones de Diseño y Principios Aplicados  
 ### Mediator 
