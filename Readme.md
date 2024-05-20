@@ -36,6 +36,10 @@ El proyecto está organizado en varias capas para seguir los principios de la ar
   - **Queries**: Implementaciones de consultas para las operaciones de lectura.
   - **Handlers**: Manejadores para procesar los comandos y consultas.
   - **DTOs (Data Transfer Objects)**: Objetos utilizados para transferir datos entre la aplicación y el cliente.
+  - **Exceptions**: Excepciones personalizadas utilizadas en esta capa.
+  - **Interfaces**: Contiene las abstracciones que deben que utilizans los queries y commands en esta capa.
+  - **Services**: Implementaciones de las abrstracciones definidas en el directorio Interfaces.
+  - **Extensions**: Contiene clases static con métodos de extensión como mappers y otros recursos utilizados en esta capa.
 
 - **Presentation**: La capa de presentación que expone los endpoints HTTP.
   - **WebAPI**: Contiene los controladores que manejan las solicitudes HTTP y delegan las operaciones a la capa de aplicación.
@@ -67,11 +71,14 @@ Durante el desarrollo del proyecto, se aplicaron los principios SOLID, Clean Cod
 
 ## Paquetes Nuget utilizados
 - xUnit
+- Moq
 - FluentAssertions
 - Serilog
 - FluentValidation
 - MediatR
 - Microsoft AspNetCore Mvc Testing
+- Entity Framework Core
+- Swagger
 
 ## Ejecución del Proyecto
 
